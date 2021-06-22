@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Semantic tags</title>
+    </head>
+    <body >
+        <center>
+            <h1>CSS EFFECTS</h1></center>
+        <hr>
+        <h3>grid layout</h3>
+        <div class="main">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+        <h3>list types</h3>
+        <section>
+            <ul
+style="list-style: armenian" >american:
+            <li>hi</li>
+            <li>how </li>
+            <li>r u </li></ul>
+        </section>
+        <ul style="list-style: circle" >circle:
+        <li>hi</li><li>how </li><li> r u </li></ul>
+        <ul style="list-style: disc" >disc:<li>hi</li><li>how </li><li>r u </li></ul>
+        <ul style="list-style: decimal">decimal:
+        <li>i</li><li>how </li></ul>
+        <h3>video tag</h3>
+        <img src="ani.gif" width="250" height="250">
+    </body>
+    <style>
+        div{
+            border: 2px solid #000;
+            text-align: center;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-gap: 10px;
+        }
+        @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+             img{
+                 width:150px;
+                 height: 150px;
+             }
+    </style>
+</html>
